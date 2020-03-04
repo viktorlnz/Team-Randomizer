@@ -1,0 +1,112 @@
+*{
+	text-decoration: none;
+	margin: none;
+	padding: none;
+	
+}
+
+body{
+	min-width: 550px;
+	background: linear-gradient(#6f7, #6fc);
+	background-repeat: no-repeat;	
+}
+
+section#randomizer{
+	width: 80%;
+	min-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+	background-color: rgba(50,197, 80, 0.8);
+	border: 2px solid #3a5;
+	border-radius: 20px;
+	padding: 3%;
+}
+
+
+header h1{
+	font-size: 2.2rem;
+	color: #78f;
+	text-shadow: 1.5px 0px 0.8px #222;
+}
+
+header p{
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-shadow: 2px 0 1px #666;
+	color: #e92;
+}
+
+section#entrada, section#saida{
+	width: 100%;
+}
+
+
+section#entrada div:first-child{
+	float: left;
+	width: 50%;
+}
+
+section#entrada div > * , section#entrada div > * > *{
+	display: block;
+	margin-top: 3%;
+}
+section#entrada div input{
+	width: 50%;
+}
+
+section#entrada div input, select{
+	min-width: 180px;
+	font-size: 1.3rem;
+	text-align: center;
+	color: #ccf;
+	text-shadow: 0.5px 0.8px 0px #333;	
+}
+
+select{
+	max-height: 200px;
+	
+}
+
+select option{
+	border-bottom: 1px solid #ccccdd;
+	padding-top: 0px;
+}
+
+section#entrada div:nth-child(2){
+	float: right;
+	width: 50%;
+}
+
+label{
+	font-size: 1.2rem;
+	color: #ff4;
+	text-shadow: 1px 0px 0.2px #222; 
+	font-weight: bolder;
+}
+
+button{
+	margin-right: 15%;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	font-style: italic;
+	background: #cce;
+	color: #66f;
+	text-shadow: 1px -1px 1px #446;
+	padding: 2%;
+	border-radius: 20px;
+	float: right;
+}
+
+button:hover{
+	background: #aaf;
+}
+
+section#saida{
+	display: none;
+}
+
+section#saida select{
+	margin: 2% 3% 2% 3%;
+	display: inline-block;
+}

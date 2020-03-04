@@ -1,0 +1,1 @@
+This is a very simple team randomizer, it's consists in divide randomly people in X number of groups. Made in HTML, CSS and JavaScript without a framework.

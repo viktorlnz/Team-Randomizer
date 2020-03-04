@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Team Randomizer</title>
+</head>
+<body>
+<section id="conteudo">
+	<section id="randomizer">
+		<header>
+			<h1>Definir Equipes</h1>
+			<p>Crie já as equipes de X atividade desejada com apenas alguns passos:</p>
+		</header>
+		<section id="entrada">
+			<div>
+				<form>
+					<label for="num-equipes">Defina o número de times:</label>
+					<input type="number" id="num-equipes" value="1" min="1" />
+					<label for="nome">Insira aqui cada participante por vez:</label>
+					<input type="text" id="nome" required="true" />
+					<button type="button" onclick="addItemLista()">Adicionar</button>
+				</form>
+			</div>
+			<div>
+				<label for="lista">Lista de participantes</label>
+				<select id="lista"></select>
+				<button type="button" onclick="gerarEquipes()">Montar Equipes</button>
+
+			</div>
+		</section>
+		<section id="saida">
+			<header>
+				<h1>Equipes</h1>
+				<p>As equipes formadas serão:</p>
+			</header>
+			<section id="equipes"></section>
+		</section>
+	</section>
+</section>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
